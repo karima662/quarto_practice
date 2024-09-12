@@ -2,18 +2,19 @@ project:
   type: website
 
 website:
-  title: "temp_quarto"
+  title: "practice_quarto"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - text: "Home"
+      href: index.qmd
+    - text: "About"
+      href: about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: united
     css: styles.css
     toc: true
-
-
-
+    toc-depth: 3
+    toc-location: right
+    page-layout: full

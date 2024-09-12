@@ -1,0 +1,137 @@
+[
+  {
+    "name": "resource1",
+    "author": "authorA",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagB, tagC",
+    "type": "written",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource2",
+    "author": "authorA",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA",
+    "type": "written",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource3",
+    "author": "authorA",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagB",
+    "type": "written",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource4",
+    "author": "authorB",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagC, tagD, tagD",
+    "type": "book",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource5",
+    "author": "authorB",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagD",
+    "type": "book",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource6",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagB",
+    "type": "book",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource7",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagE",
+    "type": "summary",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource8",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagB, tagD",
+    "type": "summary",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource9",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagC",
+    "type": "summary",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource10",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagB, tagD",
+    "type": "course",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource11",
+    "author": "authorC",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagB",
+    "type": "course",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource12",
+    "author": "authorD",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagB",
+    "type": "course",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource13",
+    "author": "authorE",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagA, tagD",
+    "type": "interactive",
+    "source": "internal",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource14",
+    "author": "authorE",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagC",
+    "type": "interactive",
+    "source": "external",
+    "image": "icon_item.PNG"
+  },
+  {
+    "name": "resource15",
+    "author": "authorE",
+    "link": "https://quarto.org/docs/websites/",
+    "tags": "tagD",
+    "type": "interactive",
+    "source": "external",
+    "image": "icon_item.PNG"
+  }
+]

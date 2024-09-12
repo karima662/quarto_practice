@@ -1,16 +1,135 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "temp_quarto",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "objectID": "posts_resources/resource9.html#link-to-resource",
+    "href": "posts_resources/resource9.html#link-to-resource",
+    "title": "resource9",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource7.html#link-to-resource",
+    "href": "posts_resources/resource7.html#link-to-resource",
+    "title": "resource7",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource5.html#link-to-resource",
+    "href": "posts_resources/resource5.html#link-to-resource",
+    "title": "resource5",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource3.html#link-to-resource",
+    "href": "posts_resources/resource3.html#link-to-resource",
+    "title": "resource3",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource15.html#link-to-resource",
+    "href": "posts_resources/resource15.html#link-to-resource",
+    "title": "resource15",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource13.html#link-to-resource",
+    "href": "posts_resources/resource13.html#link-to-resource",
+    "title": "resource13",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource11.html#link-to-resource",
+    "href": "posts_resources/resource11.html#link-to-resource",
+    "title": "resource11",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource1.html#link-to-resource",
+    "href": "posts_resources/resource1.html#link-to-resource",
+    "title": "resource1",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This site is dedicated to practicing how to use quarto."
+  },
+  {
+    "objectID": "about.html#about-this-site",
+    "href": "about.html#about-this-site",
+    "title": "About",
+    "section": "",
+    "text": "This site is dedicated to practicing how to use quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "index.html#listing",
+    "href": "index.html#listing",
+    "title": "Home",
+    "section": "Listing",
+    "text": "Listing\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nresource1\n\n\n\nwritten\n\n\ntagA\n\n\ntagB\n\n\ntagC\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource10\n\n\n\ncourse\n\n\ntagA\n\n\ntagB\n\n\ntagD\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource11\n\n\n\ncourse\n\n\ntagB\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource12\n\n\n\ncourse\n\n\ntagB\n\n\n\n\nauthorD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource13\n\n\n\ninteractive\n\n\ntagA\n\n\ntagD\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource14\n\n\n\ninteractive\n\n\ntagC\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource15\n\n\n\ninteractive\n\n\ntagD\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource2\n\n\n\nwritten\n\n\ntagA\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource3\n\n\n\nwritten\n\n\ntagB\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource4\n\n\n\nbook\n\n\ntagA\n\n\ntagC\n\n\ntagD\n\n\ntagD\n\n\n\n\nauthorB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource5\n\n\n\nbook\n\n\ntagA\n\n\ntagD\n\n\n\n\nauthorB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource6\n\n\n\nbook\n\n\ntagB\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource7\n\n\n\nsummary\n\n\ntagA\n\n\ntagE\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource8\n\n\n\nsummary\n\n\ntagA\n\n\ntagB\n\n\ntagD\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource9\n\n\n\nsummary\n\n\ntagA\n\n\ntagC\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts_resources/resource10.html#link-to-resource",
+    "href": "posts_resources/resource10.html#link-to-resource",
+    "title": "resource10",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource12.html#link-to-resource",
+    "href": "posts_resources/resource12.html#link-to-resource",
+    "title": "resource12",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource14.html#link-to-resource",
+    "href": "posts_resources/resource14.html#link-to-resource",
+    "title": "resource14",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource2.html#link-to-resource",
+    "href": "posts_resources/resource2.html#link-to-resource",
+    "title": "resource2",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource4.html#link-to-resource",
+    "href": "posts_resources/resource4.html#link-to-resource",
+    "title": "resource4",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource6.html#link-to-resource",
+    "href": "posts_resources/resource6.html#link-to-resource",
+    "title": "resource6",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
+  },
+  {
+    "objectID": "posts_resources/resource8.html#link-to-resource",
+    "href": "posts_resources/resource8.html#link-to-resource",
+    "title": "resource8",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/’"
   }
 ]

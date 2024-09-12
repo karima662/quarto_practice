@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>temp_quarto</title>
+<title>practice_quarto - Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,6 +30,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -93,7 +61,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_resources .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-categories","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_resources'] = new List('listing-posts_resources', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -106,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">temp_quarto</span>
+    <span class="navbar-title">practice_quarto</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -131,18 +130,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#listing" id="toc-listing" class="nav-link active" data-scroll-target="#listing">Listing</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(3)</span></div><div class="category" data-category="course">course <span class="quarto-category-count">(3)</span></div><div class="category" data-category="interactive">interactive <span class="quarto-category-count">(3)</span></div><div class="category" data-category="summary">summary <span class="quarto-category-count">(3)</span></div><div class="category" data-category="tagA">tagA <span class="quarto-category-count">(9)</span></div><div class="category" data-category="tagB">tagB <span class="quarto-category-count">(7)</span></div><div class="category" data-category="tagC">tagC <span class="quarto-category-count">(4)</span></div><div class="category" data-category="tagD">tagD <span class="quarto-category-count">(7)</span></div><div class="category" data-category="tagE">tagE <span class="quarto-category-count">(1)</span></div><div class="category" data-category="written">written <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">temp_quarto</h1>
+<h1 class="title">Home</h1>
 </div>
 
 
@@ -158,15 +163,482 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 <p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="listing" class="level2">
+<h2 class="anchored" data-anchor-id="listing">Listing</h2>
+<div id="listing-posts_resources" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_resources-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_resources'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-5">
+<div class="g-col-1" data-index="0" data-categories="written,tagA,tagB,tagC" data-listing-file-modified-sort="1726107126069" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource1
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('written'); return false;">
+written
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagC'); return false;">
+tagC
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorA
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="course,tagA,tagB,tagD" data-listing-file-modified-sort="1726107126085" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource10.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource10
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="course,tagB" data-listing-file-modified-sort="1726107126087" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource11.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource11
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="course,tagB" data-listing-file-modified-sort="1726107126089" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource12.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource12
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
+course
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorD
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="interactive,tagA,tagD" data-listing-file-modified-sort="1726107126091" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource13.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource13
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('interactive'); return false;">
+interactive
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorE
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="interactive,tagC" data-listing-file-modified-sort="1726107126093" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource14.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource14
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('interactive'); return false;">
+interactive
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagC'); return false;">
+tagC
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorE
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="interactive,tagD" data-listing-file-modified-sort="1726107126094" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource15.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource15
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('interactive'); return false;">
+interactive
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorE
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="written,tagA" data-listing-file-modified-sort="1726107126070" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource2
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('written'); return false;">
+written
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorA
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="written,tagB" data-listing-file-modified-sort="1726107126072" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource3
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('written'); return false;">
+written
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorA
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="book,tagA,tagC,tagD,tagD" data-listing-file-modified-sort="1726107126075" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource4
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('book'); return false;">
+book
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagC'); return false;">
+tagC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorB
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="book,tagA,tagD" data-listing-file-modified-sort="1726107126077" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource5
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('book'); return false;">
+book
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorB
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="book,tagB" data-listing-file-modified-sort="1726107126079" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource6
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('book'); return false;">
+book
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="summary,tagA,tagE" data-listing-file-modified-sort="1726107126080" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource7.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource7
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('summary'); return false;">
+summary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagE'); return false;">
+tagE
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="summary,tagA,tagB,tagD" data-listing-file-modified-sort="1726107126081" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource8.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource8
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('summary'); return false;">
+summary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagB'); return false;">
+tagB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagD'); return false;">
+tagD
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="summary,tagA,tagC" data-listing-file-modified-sort="1726107126083" data-listing-reading-time-sort="1">
+<a href="./posts_resources/resource9.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts_resources/images/icon_item.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+resource9
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('summary'); return false;">
+summary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagA'); return false;">
+tagA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tagC'); return false;">
+tagC
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+authorC
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

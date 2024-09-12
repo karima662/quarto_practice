@@ -1,0 +1,13 @@
+---
+title: "resource1"
+author: "authorA"
+categories: [ written, tagA, tagB, tagC ]
+image: "images/icon_item.PNG"
+---
+
+## Description
+
+
+## Link To Resource
+
+<a target="_blank" href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/'</a>

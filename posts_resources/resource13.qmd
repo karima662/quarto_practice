@@ -1,0 +1,13 @@
+---
+title: "resource13"
+author: "authorE"
+categories: [ interactive, tagA, tagD ]
+image: "images/icon_item.PNG"
+---
+
+## Description
+
+
+## Link To Resource
+
+<a target="_blank" href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/'</a>

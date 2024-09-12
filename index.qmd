@@ -1,11 +1,22 @@
 ---
-title: "temp_quarto"
+title: "Home"
+listing:
+  - id: posts_resources
+    contents: posts_resources
+    sort: "title asc"
+    type: grid
+    grid-columns: 5
+    page-size: 30
+    fields: [image, title, categories, author]
+    categories: true
+    sort-ui: [title, author]
+    filter-ui: [title, categories, author]
 ---
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Listing
 
-```{r}
-1 + 1
-```
+:::{#posts_resources}
+:::
+

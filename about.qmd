@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+## About this site
 
-```{r}
-1 + 1
-```
+This site is dedicated to practicing how to use quarto.
+
+
