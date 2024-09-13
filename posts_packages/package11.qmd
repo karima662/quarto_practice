@@ -1,0 +1,17 @@
+---
+title: "package11"
+categories: [ external ]
+image: "images/icon_box.PNG"
+---
+
+## Description
+
+Lorem ipsum dolor sit amet.
+
+## Link To GitHub Repository
+
+<a target="_blank" href="https://github.com/tidyverse/dplyr">https://github.com/tidyverse/dplyr</a>
+
+## Link To Package Website
+
+<a target="_blank" href="https://dplyr.tidyverse.org/">https://dplyr.tidyverse.org/</a>

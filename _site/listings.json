@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/index_resources.html",
     "items": [
       "/posts_resources/resource1.html",
       "/posts_resources/resource10.html",
@@ -17,6 +17,26 @@
       "/posts_resources/resource7.html",
       "/posts_resources/resource8.html",
       "/posts_resources/resource9.html"
+    ]
+  },
+  {
+    "listing": "/index_packages.html",
+    "items": [
+      "/posts_packages/package1.html",
+      "/posts_packages/package10.html",
+      "/posts_packages/package11.html",
+      "/posts_packages/package12.html",
+      "/posts_packages/package13.html",
+      "/posts_packages/package14.html",
+      "/posts_packages/package15.html",
+      "/posts_packages/package2.html",
+      "/posts_packages/package3.html",
+      "/posts_packages/package4.html",
+      "/posts_packages/package5.html",
+      "/posts_packages/package6.html",
+      "/posts_packages/package7.html",
+      "/posts_packages/package8.html",
+      "/posts_packages/package9.html"
     ]
   }
 ]

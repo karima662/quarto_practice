@@ -1,0 +1,23 @@
+---
+title: "Packages"
+listing:
+  - id: posts_packages
+    contents: posts_packages
+    sort: "title asc"
+    type: grid
+    grid-columns: 5
+    page-size: 30
+    image-height: "100%"
+    fields: [image, title, categories]
+    categories: true
+    sort-ui: [title]
+    filter-ui: [title, categories]
+---
+
+This is a Quarto website.
+
+## Listing
+
+:::{#posts_packages}
+:::
+

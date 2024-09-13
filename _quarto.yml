@@ -5,8 +5,10 @@ website:
   title: "practice_quarto"
   navbar:
     left:
-    - text: "Home"
-      href: index.qmd
+    - text: "Resources"
+      href: index_resources.qmd
+    - text: "Packages"
+      href: index_packages.qmd
     - text: "About"
       href: about.qmd
 
@@ -18,3 +20,4 @@ format:
     toc-depth: 3
     toc-location: right
     page-layout: full
+
