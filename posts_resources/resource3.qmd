@@ -2,11 +2,8 @@
 title: "resource3"
 author: "authorA"
 categories: [ written, tagB ]
-image: "images/icon_item.PNG"
+image: "images/icon_folder.PNG"
 ---
-
-## Description
-
 
 ## Link To Resource
 

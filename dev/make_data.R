@@ -24,12 +24,12 @@ df_resources <- tibble(name = paste0(rep("resource", 15), seq(1:15)),
                        ),
                        type = rep(c("written", "book", "summary", "course", "interactive"), each = 3),
                        source = rep(c("internal", "external"), c(13, 2)),
-                       image = rep("icon_item.PNG", 15))
+                       image = rep("icon_folder.PNG", 15))
 
 df_packages <- tibble(name = paste0(rep("package", 15), seq(1:15)),
                       github = rep("https://github.com/tidyverse/dplyr", 15),
                       website = rep("https://dplyr.tidyverse.org/", 15),
-                      image = rep("icon_item.PNG", 15),
+                      image = rep("icon_box.PNG", 15),
                       description = rep("Lorem ipsum dolor sit amet.", 15),
                       type = rep(c("internal", "external", "collaboration"), c(8, 5, 2)))
 

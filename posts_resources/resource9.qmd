@@ -2,11 +2,8 @@
 title: "resource9"
 author: "authorC"
 categories: [ summary, tagA, tagC ]
-image: "images/icon_item.PNG"
+image: "images/icon_folder.PNG"
 ---
-
-## Description
-
 
 ## Link To Resource
 

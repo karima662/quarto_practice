@@ -2,11 +2,8 @@
 title: "resource15"
 author: "authorE"
 categories: [ interactive, tagD ]
-image: "images/icon_item.PNG"
+image: "images/icon_folder.PNG"
 ---
-
-## Description
-
 
 ## Link To Resource
 
