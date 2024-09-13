@@ -1,58 +1,63 @@
-# create posts using data
+### create posts using data ###
 
 # import data
 df_resources <- read.csv("data/df_resources.csv") %>% as_tibble() %>%
-  mutate(combined_tags = paste0(type, ", ", tags))
-#df_resources_json <- jsonlite::toJSON(df_resources, pretty = TRUE)
-#writeLines(df_resources_json, "data/df_resources_json.json")
+  mutate(combined_tags = paste0(type, ", ", tags)) #%>% mutate(description = "example description")
 
-# make function
-create_post <- function(folder_name, name, author, link, tags, type, source, image){
-  file_name <- stringr::str_replace_all(tolower(name), " ", "_") # replace space with underscore
-  file_path <- file.path(folder_name, paste0(file_name, ".qmd")) # create file path for post
+# make function with custom column names
+create_post <- function(df, folder_name,
+                        title = "name", author = "author", categories = "combined_tags",
+                        image = "image", link = "link", description = NULL) {
   
-  if (is.na(tags)) { # test
-    tags <- ""
+  # helper function to create individual posts
+  create_individual_post <- function(title, author, link, categories, image, description) {
+    file_name <- stringr::str_replace_all(tolower(title), " ", "_") # replace space with underscore
+    file_path <- file.path(folder_name, paste0(file_name, ".qmd")) # create file path for post
+    
+    categories <- ifelse(is.na(categories), "", categories)
+    description <- ifelse(is.na(description), "", description)
+    
+    
+    # prepare front matter
+    yaml <- c(
+      "---",
+      paste("title:", shQuote(title)),
+      paste("author:", shQuote(author)),
+      paste("categories:", "[", categories, "]"),
+      paste("image:", shQuote(paste0("images/", image))),
+      "---"
+    )
+    
+    # prepare content
+    content <- c(
+      paste("##", "Description"),
+      "",
+      description,
+      "",
+      paste("##", "Link To Resource"),
+      "",
+      paste0('<a target="_blank" href="', link, '">', link, '</a>')
+    )
+    
+    # write to posts folder
+    writeLines(c(yaml, "", content), file_path)
   }
   
-  # prepare front matter
-  yaml <- c(
-    "---",
-    paste("title:", shQuote(name)),
-    paste("author:", shQuote(author)),
-    paste("categories:", "[", tags, "]"),
-    paste("image:", shQuote(paste0("images/", image))),
-    "---"
-  )
-  
-  # prepare content
-  content <- c(
-    paste("##", "Description"),
-    "",
-    #description,
-    "",
-    paste("##", "Link To Resource"),
-    "",
-    paste0('<a target="_blank" href="', link, '">', link, "'</a>")
-  )
-  
-  # write to posts folder
-  writeLines(c(yaml, "", content), file_path)
-  
+  # iterate over rows of the dataframe
+  for (i in 1:nrow(df)) {
+    create_individual_post(
+      title = df[[title]][i],
+      author = df[[author]][i],
+      link = df[[link]][i],
+      categories = ifelse(is.null(df[[categories]][i]), "", df[[categories]][i]),
+      image = ifelse(is.null(df[[image]][i]), "", df[[image]][i]),
+      description = ifelse(description %in% colnames(df), df[[description]][i], "")
+    )
+  }
 }
 
-
-for (i in 1:nrow(df_resources)) {
-  create_post(
-    folder_name = "posts_resources",
-    name = df_resources$name[i],
-    author = df_resources$author[i],
-    link = df_resources$link[i],
-    tags = ifelse(is.null(df_resources$combined_tags[i]), "", df_resources$combined_tags[i]),
-    image = ifelse(is.null(df_resources$image[i]), "", df_resources$image[i])
-    #description = ""
-  )
-}
-
+# Use function to create posts
+create_post(df_resources, folder_name = "posts_resources",
+            title = "name", author = "author", categories = "combined_tags", link = "link", image = "image")
 
 

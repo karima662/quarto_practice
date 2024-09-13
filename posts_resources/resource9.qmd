@@ -10,4 +10,4 @@ image: "images/icon_item.PNG"
 
 ## Link To Resource
 
-<a target="_blank" href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/'</a>
+<a target="_blank" href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/</a>
