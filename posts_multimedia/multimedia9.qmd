@@ -1,0 +1,14 @@
+---
+title: "multimedia9"
+author: "authorC"
+categories: [ podcast, tagA, tagC ]
+image: "images/icon_multimedia.PNG"
+---
+
+## Description
+
+Lorem ipsum dolor sit amet.
+
+## Link To Resource
+
+<a target="_blank" href="https://quarto.org/docs/websites/">https://quarto.org/docs/websites/</a>

@@ -12,11 +12,27 @@ listing:
     categories: true
     sort-ui: [title, author]
     filter-ui: [title, categories, author]
+  - id: posts_multimedia
+    contents: posts_multimedia
+    sort: "title asc"
+    type: grid
+    grid-columns: 5
+    page-size: 30
+    image-height: "100%"
+    fields: [image, title, categories, author]
+    categories: true
+    sort-ui: [title, author]
+    filter-ui: [title, categories, author]
 ---
 
 This is a Quarto website.
 
-## Listing
+## Guides & Tutorials
+
+:::{#posts_resources}
+:::
+
+## Videos & Podcasts
 
 :::{#posts_resources}
 :::

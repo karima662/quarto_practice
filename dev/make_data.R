@@ -26,6 +26,25 @@ df_resources <- tibble(name = paste0(rep("resource", 15), seq(1:15)),
                        source = rep(c("internal", "external"), c(13, 2)),
                        image = rep("icon_folder.PNG", 15))
 
+df_multimedia <- tibble(name = paste0(rep("multimedia", 10), seq(1:10)),
+                        author = paste0(rep("author", 10), rep(c("A", "B", "C"), times = c(3, 5, 2))),
+                        link = rep("https://quarto.org/docs/websites/", 10),
+                        tags = c(
+                          c("tagA, tagB"),
+                          c("tagA"),
+                          c("tagB"),
+                          c("tagA, tagC"),
+                          c("tagC"),
+                          c("tagB"),
+                          c("tagB, tagC"),
+                          c("tagA"),
+                          c("tagA, tagC"),
+                          c("tagB")
+                        ),
+                        type = rep(c("video", "podcast"), each = 5),
+                        image = rep("icon_multimedia.PNG", 10),
+                        description = rep("Lorem ipsum dolor sit amet.", 10))
+
 df_packages <- tibble(name = paste0(rep("package", 15), seq(1:15)),
                       github = rep("https://github.com/tidyverse/dplyr", 15),
                       website = rep("https://dplyr.tidyverse.org/", 15),
@@ -34,12 +53,13 @@ df_packages <- tibble(name = paste0(rep("package", 15), seq(1:15)),
                       type = rep(c("internal", "external", "collaboration"), c(8, 5, 2)))
 
 
-
 # view data
 df_resources
 df_packages
+df_multimedia
 
-# export to data folder
+
 write.csv(df_resources, "data/df_resources.csv", row.names = FALSE)
 write.csv(df_packages, "data/df_packages.csv", row.names = FALSE)
+write.csv(df_multimedia, "data/df_multimedia.csv", row.names = FALSE)
 
