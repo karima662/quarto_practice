@@ -1,0 +1,891 @@
+[
+  {
+    "objectID": "index_resources.html",
+    "href": "index_resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "index_resources.html#guides-tutorials",
+    "href": "index_resources.html#guides-tutorials",
+    "title": "Resources",
+    "section": "Guides & Tutorials",
+    "text": "Guides & Tutorials\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nresource1\n\n\n\nwritten\n\n\ntagA\n\n\ntagB\n\n\ntagC\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource10\n\n\n\ncourse\n\n\ntagA\n\n\ntagB\n\n\ntagD\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource11\n\n\n\ncourse\n\n\ntagB\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource12\n\n\n\ncourse\n\n\ntagB\n\n\n\n\nauthorD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource13\n\n\n\ninteractive\n\n\ntagA\n\n\ntagD\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource14\n\n\n\ninteractive\n\n\ntagC\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource15\n\n\n\ninteractive\n\n\ntagD\n\n\n\n\nauthorE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource2\n\n\n\nwritten\n\n\ntagA\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource3\n\n\n\nwritten\n\n\ntagB\n\n\n\n\nauthorA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource4\n\n\n\nbook\n\n\ntagA\n\n\ntagC\n\n\ntagD\n\n\ntagD\n\n\n\n\nauthorB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource5\n\n\n\nbook\n\n\ntagA\n\n\ntagD\n\n\n\n\nauthorB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource6\n\n\n\nbook\n\n\ntagB\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource7\n\n\n\nsummary\n\n\ntagA\n\n\ntagE\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource8\n\n\n\nsummary\n\n\ntagA\n\n\ntagB\n\n\ntagD\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresource9\n\n\n\nsummary\n\n\ntagA\n\n\ntagC\n\n\n\n\nauthorC\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index_resources.html#videos-podcasts",
+    "href": "index_resources.html#videos-podcasts",
+    "title": "Resources",
+    "section": "Videos & Podcasts",
+    "text": "Videos & Podcasts"
+  },
+  {
+    "objectID": "posts_resources/resource8.html",
+    "href": "posts_resources/resource8.html",
+    "title": "resource8",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource8.html#link-to-resource",
+    "href": "posts_resources/resource8.html#link-to-resource",
+    "title": "resource8",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource6.html",
+    "href": "posts_resources/resource6.html",
+    "title": "resource6",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource6.html#link-to-resource",
+    "href": "posts_resources/resource6.html#link-to-resource",
+    "title": "resource6",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource4.html",
+    "href": "posts_resources/resource4.html",
+    "title": "resource4",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource4.html#link-to-resource",
+    "href": "posts_resources/resource4.html#link-to-resource",
+    "title": "resource4",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource2.html",
+    "href": "posts_resources/resource2.html",
+    "title": "resource2",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource2.html#link-to-resource",
+    "href": "posts_resources/resource2.html#link-to-resource",
+    "title": "resource2",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource14.html",
+    "href": "posts_resources/resource14.html",
+    "title": "resource14",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource14.html#link-to-resource",
+    "href": "posts_resources/resource14.html#link-to-resource",
+    "title": "resource14",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource12.html",
+    "href": "posts_resources/resource12.html",
+    "title": "resource12",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource12.html#link-to-resource",
+    "href": "posts_resources/resource12.html#link-to-resource",
+    "title": "resource12",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource10.html",
+    "href": "posts_resources/resource10.html",
+    "title": "resource10",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource10.html#link-to-resource",
+    "href": "posts_resources/resource10.html#link-to-resource",
+    "title": "resource10",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_packages/package9.html",
+    "href": "posts_packages/package9.html",
+    "title": "package9",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package9.html#description",
+    "href": "posts_packages/package9.html#description",
+    "title": "package9",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package9.html#link-to-github-repository",
+    "href": "posts_packages/package9.html#link-to-github-repository",
+    "title": "package9",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package9.html#link-to-package-website",
+    "href": "posts_packages/package9.html#link-to-package-website",
+    "title": "package9",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package7.html",
+    "href": "posts_packages/package7.html",
+    "title": "package7",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package7.html#description",
+    "href": "posts_packages/package7.html#description",
+    "title": "package7",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package7.html#link-to-github-repository",
+    "href": "posts_packages/package7.html#link-to-github-repository",
+    "title": "package7",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package7.html#link-to-package-website",
+    "href": "posts_packages/package7.html#link-to-package-website",
+    "title": "package7",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package5.html",
+    "href": "posts_packages/package5.html",
+    "title": "package5",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package5.html#description",
+    "href": "posts_packages/package5.html#description",
+    "title": "package5",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package5.html#link-to-github-repository",
+    "href": "posts_packages/package5.html#link-to-github-repository",
+    "title": "package5",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package5.html#link-to-package-website",
+    "href": "posts_packages/package5.html#link-to-package-website",
+    "title": "package5",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package3.html",
+    "href": "posts_packages/package3.html",
+    "title": "package3",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package3.html#description",
+    "href": "posts_packages/package3.html#description",
+    "title": "package3",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package3.html#link-to-github-repository",
+    "href": "posts_packages/package3.html#link-to-github-repository",
+    "title": "package3",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package3.html#link-to-package-website",
+    "href": "posts_packages/package3.html#link-to-package-website",
+    "title": "package3",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package15.html",
+    "href": "posts_packages/package15.html",
+    "title": "package15",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package15.html#description",
+    "href": "posts_packages/package15.html#description",
+    "title": "package15",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package15.html#link-to-github-repository",
+    "href": "posts_packages/package15.html#link-to-github-repository",
+    "title": "package15",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package15.html#link-to-package-website",
+    "href": "posts_packages/package15.html#link-to-package-website",
+    "title": "package15",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package13.html",
+    "href": "posts_packages/package13.html",
+    "title": "package13",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package13.html#description",
+    "href": "posts_packages/package13.html#description",
+    "title": "package13",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package13.html#link-to-github-repository",
+    "href": "posts_packages/package13.html#link-to-github-repository",
+    "title": "package13",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package13.html#link-to-package-website",
+    "href": "posts_packages/package13.html#link-to-package-website",
+    "title": "package13",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package11.html",
+    "href": "posts_packages/package11.html",
+    "title": "package11",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package11.html#description",
+    "href": "posts_packages/package11.html#description",
+    "title": "package11",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package11.html#link-to-github-repository",
+    "href": "posts_packages/package11.html#link-to-github-repository",
+    "title": "package11",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package11.html#link-to-package-website",
+    "href": "posts_packages/package11.html#link-to-package-website",
+    "title": "package11",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package1.html",
+    "href": "posts_packages/package1.html",
+    "title": "package1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package1.html#description",
+    "href": "posts_packages/package1.html#description",
+    "title": "package1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package1.html#link-to-github-repository",
+    "href": "posts_packages/package1.html#link-to-github-repository",
+    "title": "package1",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package1.html#link-to-package-website",
+    "href": "posts_packages/package1.html#link-to-package-website",
+    "title": "package1",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia8.html",
+    "href": "posts_multimedia/multimedia8.html",
+    "title": "multimedia8",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia8.html#description",
+    "href": "posts_multimedia/multimedia8.html#description",
+    "title": "multimedia8",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia8.html#link-to-resource",
+    "href": "posts_multimedia/multimedia8.html#link-to-resource",
+    "title": "multimedia8",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia6.html",
+    "href": "posts_multimedia/multimedia6.html",
+    "title": "multimedia6",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia6.html#description",
+    "href": "posts_multimedia/multimedia6.html#description",
+    "title": "multimedia6",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia6.html#link-to-resource",
+    "href": "posts_multimedia/multimedia6.html#link-to-resource",
+    "title": "multimedia6",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia4.html",
+    "href": "posts_multimedia/multimedia4.html",
+    "title": "multimedia4",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia4.html#description",
+    "href": "posts_multimedia/multimedia4.html#description",
+    "title": "multimedia4",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia4.html#link-to-resource",
+    "href": "posts_multimedia/multimedia4.html#link-to-resource",
+    "title": "multimedia4",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia2.html",
+    "href": "posts_multimedia/multimedia2.html",
+    "title": "multimedia2",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia2.html#description",
+    "href": "posts_multimedia/multimedia2.html#description",
+    "title": "multimedia2",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia2.html#link-to-resource",
+    "href": "posts_multimedia/multimedia2.html#link-to-resource",
+    "title": "multimedia2",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia1.html",
+    "href": "posts_multimedia/multimedia1.html",
+    "title": "multimedia1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia1.html#description",
+    "href": "posts_multimedia/multimedia1.html#description",
+    "title": "multimedia1",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia1.html#link-to-resource",
+    "href": "posts_multimedia/multimedia1.html#link-to-resource",
+    "title": "multimedia1",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is dedicated to practicing how to use quarto."
+  },
+  {
+    "objectID": "about.html#about-this-site",
+    "href": "about.html#about-this-site",
+    "title": "About",
+    "section": "",
+    "text": "This site is dedicated to practicing how to use quarto."
+  },
+  {
+    "objectID": "index_packages.html",
+    "href": "index_packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "index_packages.html#listing",
+    "href": "index_packages.html#listing",
+    "title": "Packages",
+    "section": "Listing",
+    "text": "Listing\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\npackage1\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage10\n\n\n\nexternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage11\n\n\n\nexternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage12\n\n\n\nexternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage13\n\n\n\nexternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage14\n\n\n\ncollaboration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage15\n\n\n\ncollaboration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage2\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage3\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage4\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage5\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage6\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage7\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage8\n\n\n\ninternal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npackage9\n\n\n\nexternal\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia10.html",
+    "href": "posts_multimedia/multimedia10.html",
+    "title": "multimedia10",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia10.html#description",
+    "href": "posts_multimedia/multimedia10.html#description",
+    "title": "multimedia10",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia10.html#link-to-resource",
+    "href": "posts_multimedia/multimedia10.html#link-to-resource",
+    "title": "multimedia10",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia3.html",
+    "href": "posts_multimedia/multimedia3.html",
+    "title": "multimedia3",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia3.html#description",
+    "href": "posts_multimedia/multimedia3.html#description",
+    "title": "multimedia3",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia3.html#link-to-resource",
+    "href": "posts_multimedia/multimedia3.html#link-to-resource",
+    "title": "multimedia3",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia5.html",
+    "href": "posts_multimedia/multimedia5.html",
+    "title": "multimedia5",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia5.html#description",
+    "href": "posts_multimedia/multimedia5.html#description",
+    "title": "multimedia5",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia5.html#link-to-resource",
+    "href": "posts_multimedia/multimedia5.html#link-to-resource",
+    "title": "multimedia5",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia7.html",
+    "href": "posts_multimedia/multimedia7.html",
+    "title": "multimedia7",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia7.html#description",
+    "href": "posts_multimedia/multimedia7.html#description",
+    "title": "multimedia7",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia7.html#link-to-resource",
+    "href": "posts_multimedia/multimedia7.html#link-to-resource",
+    "title": "multimedia7",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_multimedia/multimedia9.html",
+    "href": "posts_multimedia/multimedia9.html",
+    "title": "multimedia9",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia9.html#description",
+    "href": "posts_multimedia/multimedia9.html#description",
+    "title": "multimedia9",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_multimedia/multimedia9.html#link-to-resource",
+    "href": "posts_multimedia/multimedia9.html#link-to-resource",
+    "title": "multimedia9",
+    "section": "Link To Resource",
+    "text": "Link To Resource\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_packages/package10.html",
+    "href": "posts_packages/package10.html",
+    "title": "package10",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package10.html#description",
+    "href": "posts_packages/package10.html#description",
+    "title": "package10",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package10.html#link-to-github-repository",
+    "href": "posts_packages/package10.html#link-to-github-repository",
+    "title": "package10",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package10.html#link-to-package-website",
+    "href": "posts_packages/package10.html#link-to-package-website",
+    "title": "package10",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package12.html",
+    "href": "posts_packages/package12.html",
+    "title": "package12",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package12.html#description",
+    "href": "posts_packages/package12.html#description",
+    "title": "package12",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package12.html#link-to-github-repository",
+    "href": "posts_packages/package12.html#link-to-github-repository",
+    "title": "package12",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package12.html#link-to-package-website",
+    "href": "posts_packages/package12.html#link-to-package-website",
+    "title": "package12",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package14.html",
+    "href": "posts_packages/package14.html",
+    "title": "package14",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package14.html#description",
+    "href": "posts_packages/package14.html#description",
+    "title": "package14",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package14.html#link-to-github-repository",
+    "href": "posts_packages/package14.html#link-to-github-repository",
+    "title": "package14",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package14.html#link-to-package-website",
+    "href": "posts_packages/package14.html#link-to-package-website",
+    "title": "package14",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package2.html",
+    "href": "posts_packages/package2.html",
+    "title": "package2",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package2.html#description",
+    "href": "posts_packages/package2.html#description",
+    "title": "package2",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package2.html#link-to-github-repository",
+    "href": "posts_packages/package2.html#link-to-github-repository",
+    "title": "package2",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package2.html#link-to-package-website",
+    "href": "posts_packages/package2.html#link-to-package-website",
+    "title": "package2",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package4.html",
+    "href": "posts_packages/package4.html",
+    "title": "package4",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package4.html#description",
+    "href": "posts_packages/package4.html#description",
+    "title": "package4",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package4.html#link-to-github-repository",
+    "href": "posts_packages/package4.html#link-to-github-repository",
+    "title": "package4",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package4.html#link-to-package-website",
+    "href": "posts_packages/package4.html#link-to-package-website",
+    "title": "package4",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package6.html",
+    "href": "posts_packages/package6.html",
+    "title": "package6",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package6.html#description",
+    "href": "posts_packages/package6.html#description",
+    "title": "package6",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package6.html#link-to-github-repository",
+    "href": "posts_packages/package6.html#link-to-github-repository",
+    "title": "package6",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package6.html#link-to-package-website",
+    "href": "posts_packages/package6.html#link-to-package-website",
+    "title": "package6",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_packages/package8.html",
+    "href": "posts_packages/package8.html",
+    "title": "package8",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package8.html#description",
+    "href": "posts_packages/package8.html#description",
+    "title": "package8",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "objectID": "posts_packages/package8.html#link-to-github-repository",
+    "href": "posts_packages/package8.html#link-to-github-repository",
+    "title": "package8",
+    "section": "Link To GitHub Repository",
+    "text": "Link To GitHub Repository\nhttps://github.com/tidyverse/dplyr"
+  },
+  {
+    "objectID": "posts_packages/package8.html#link-to-package-website",
+    "href": "posts_packages/package8.html#link-to-package-website",
+    "title": "package8",
+    "section": "Link To Package Website",
+    "text": "Link To Package Website\nhttps://dplyr.tidyverse.org/"
+  },
+  {
+    "objectID": "posts_resources/resource1.html",
+    "href": "posts_resources/resource1.html",
+    "title": "resource1",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource1.html#link-to-resource",
+    "href": "posts_resources/resource1.html#link-to-resource",
+    "title": "resource1",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource11.html",
+    "href": "posts_resources/resource11.html",
+    "title": "resource11",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource11.html#link-to-resource",
+    "href": "posts_resources/resource11.html#link-to-resource",
+    "title": "resource11",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource13.html",
+    "href": "posts_resources/resource13.html",
+    "title": "resource13",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource13.html#link-to-resource",
+    "href": "posts_resources/resource13.html#link-to-resource",
+    "title": "resource13",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource15.html",
+    "href": "posts_resources/resource15.html",
+    "title": "resource15",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource15.html#link-to-resource",
+    "href": "posts_resources/resource15.html#link-to-resource",
+    "title": "resource15",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource3.html",
+    "href": "posts_resources/resource3.html",
+    "title": "resource3",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource3.html#link-to-resource",
+    "href": "posts_resources/resource3.html#link-to-resource",
+    "title": "resource3",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource5.html",
+    "href": "posts_resources/resource5.html",
+    "title": "resource5",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource5.html#link-to-resource",
+    "href": "posts_resources/resource5.html#link-to-resource",
+    "title": "resource5",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource7.html",
+    "href": "posts_resources/resource7.html",
+    "title": "resource7",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource7.html#link-to-resource",
+    "href": "posts_resources/resource7.html#link-to-resource",
+    "title": "resource7",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource9.html",
+    "href": "posts_resources/resource9.html",
+    "title": "resource9",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "posts_resources/resource9.html#link-to-resource",
+    "href": "posts_resources/resource9.html#link-to-resource",
+    "title": "resource9",
+    "section": "",
+    "text": "https://quarto.org/docs/websites/"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "listing": "/index_resources.html",
+    "items": [
+      "/posts_resources/resource1.html",
+      "/posts_resources/resource10.html",
+      "/posts_resources/resource11.html",
+      "/posts_resources/resource12.html",
+      "/posts_resources/resource13.html",
+      "/posts_resources/resource14.html",
+      "/posts_resources/resource15.html",
+      "/posts_resources/resource2.html",
+      "/posts_resources/resource3.html",
+      "/posts_resources/resource4.html",
+      "/posts_resources/resource5.html",
+      "/posts_resources/resource6.html",
+      "/posts_resources/resource7.html",
+      "/posts_resources/resource8.html",
+      "/posts_resources/resource9.html",
+      "/posts_multimedia/multimedia1.html",
+      "/posts_multimedia/multimedia10.html",
+      "/posts_multimedia/multimedia2.html",
+      "/posts_multimedia/multimedia3.html",
+      "/posts_multimedia/multimedia4.html",
+      "/posts_multimedia/multimedia5.html",
+      "/posts_multimedia/multimedia6.html",
+      "/posts_multimedia/multimedia7.html",
+      "/posts_multimedia/multimedia8.html",
+      "/posts_multimedia/multimedia9.html"
+    ]
+  },
+  {
+    "listing": "/index_packages.html",
+    "items": [
+      "/posts_packages/package1.html",
+      "/posts_packages/package10.html",
+      "/posts_packages/package11.html",
+      "/posts_packages/package12.html",
+      "/posts_packages/package13.html",
+      "/posts_packages/package14.html",
+      "/posts_packages/package15.html",
+      "/posts_packages/package2.html",
+      "/posts_packages/package3.html",
+      "/posts_packages/package4.html",
+      "/posts_packages/package5.html",
+      "/posts_packages/package6.html",
+      "/posts_packages/package7.html",
+      "/posts_packages/package8.html",
+      "/posts_packages/package9.html"
+    ]
+  }
+]
