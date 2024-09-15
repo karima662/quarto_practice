@@ -894,5 +894,19 @@
     "title": "Resources",
     "section": "Videos & Podcasts",
     "text": "Videos & Podcasts"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nSuggestions or queries? Please fill out the form below."
+  },
+  {
+    "objectID": "about.html#contact-us",
+    "href": "about.html#contact-us",
+    "title": "About",
+    "section": "Contact Us",
+    "text": "Contact Us\nIf you have any questions or queries, please fill out the form below.\n\nYour Name: \nYour Email: \nYour Query:\n\n\nSubmit"
   }
 ]

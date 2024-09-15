@@ -2,8 +2,23 @@
 title: "About"
 ---
 
-## About this site
-
 This site is dedicated to practicing how to use quarto.
 
+
+## Contact Us
+
+If you have any questions or queries, please fill out the form below.
+
+<form action="https://formspree.io/f/form-id" method="POST" class="contact-form">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Your Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="query">Your Query:</label>
+  <textarea id="query" name="query" rows="4" required></textarea>
+
+  <button type="submit">Submit</button>
+</form>
 

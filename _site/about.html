@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-this-site" id="toc-about-this-site" class="nav-link active" data-scroll-target="#about-this-site">About this site</a></li>
+  <li><a href="#contact-us" id="toc-contact-us" class="nav-link active" data-scroll-target="#contact-us">Contact Us</a></li>
   </ul>
 </nav>
     </div>
@@ -133,9 +133,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="about-this-site" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-site">About this site</h2>
 <p>This site is dedicated to practicing how to use quarto.</p>
+<section id="contact-us" class="level2">
+<h2 class="anchored" data-anchor-id="contact-us">Contact Us</h2>
+<p>If you have any questions or queries, please fill out the form below.</p>
+<form action="https://formspree.io/f/form-id" method="POST" class="contact-form">
+<p><label for="name">Your Name:</label> <input type="text" id="name" name="name" required=""></p>
+<p><label for="email">Your Email:</label> <input type="email" id="email" name="email" required=""></p>
+<label for="query">Your Query:</label>
+<textarea id="query" name="query" rows="4" required=""></textarea>
+<button type="submit">
+Submit
+</button>
+</form>
 
 
 </section>
